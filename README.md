@@ -28,7 +28,7 @@ Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）�
   - ragas
 
 ## 工作流程：
-0. 确保你已经得到了每个文件下的config的完整key-value，否则无法提供服务
+"""确保你已经得到了每个文件下的config的完整key-value，否则无法提供服务"""
 1. 启动API下的api服务
 2. 使用curl -X POST "http://127.0.0.1:8000/ask" -H "Content-Type: application/json" -d "{\"q\": \"输入你的query\"}"，向API发送请求
 3. API接收到请求后，异步调用ducksearch、Elasticsearch、milvussearch检索，获取混合检索结果
