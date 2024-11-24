@@ -9,8 +9,8 @@ MYSQL:
     host: "输入你的mysql host"
     port: 3306
     user: "root"
-    password: ""
-    database: ""
+    password: "输入密码"
+    database: "输入数据库名"
 
 
   
