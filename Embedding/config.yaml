@@ -1,32 +1,32 @@
 #zhipuAI调用
 zhipuAI:
-    api_key: "e99ba8aa2a6a3356c5bdd3c8cca7328c.5ysXsk60jDBQlDXH"
+    api_key: "输入你的api_key"
 
 #openai调用
 aliAI:
-    api_key: "sk-68a8a4bdd43b4fb4bd7d4cc936a89bf3"
+    api_key: "输入你的api_key"
     base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 #openai调用
 deepseekAI:
-    api_key: "sk-b0ad767e13e34b76af1f13d746ab75f3"
+    api_key: "输入你的api_key"
     base_url: "https://api.deepseek.com/v1"
 
 #Ark调用 from volcenginesdkarkruntime import Ark
 
 doubaoAI:
-    api_key: "4a65a771-f695-4fe6-8c34-79508e9427c4"
-    ep_point: "ep-20241120154412-s4l7h"
+    api_key: "输入你的api_key"
+    ep_point: "输入你的节点"
     base_url: "https://ark.cn-beijing.volces.com/api/v3"
 
 baichuanAI:
-    api_key: "sk-e94b5d17b6edd87fae00557c80e1da14"
+    api_key: "输入你的api_key"
     base_url:  "https://api.baichuan-ai.com/v1/"
 
 
 doubaoembedding:
-    api_key: "4a65a771-f695-4fe6-8c34-79508e9427c4"
-    ep_point: "ep-20241120154746-n7jdt"
+    api_key: "输入你的api_key"
+    ep_point: "输入你的节点"
     base_url: "https://ark.cn-beijing.volces.com/api/v3"
        
 
