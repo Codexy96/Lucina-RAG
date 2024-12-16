@@ -2,22 +2,15 @@
 
 ## 项目概述
 
-<<<<<<< HEAD
 Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供多模态的问答服务。
 
 
-
-## 2.0测试版更新日志
-=======
-Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供更准确、更快速的问答服务。
 ## 1.0.1测试版更新日志
->>>>>>> e0541f92bcbf7dee5e19139171211ee4a4f988c5
-
-
 <video width="320" height="240" controls>
   <source src="./resource/demo.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
+
 ### 1、新增功能
 - **1.1** 新增图表代码模块，支持大模型生成Python代码以生成图表并加载图片。
 - **1.2** 支持开发环境脚本一键安装，包括TensorRT引擎化脚本。抽象API `knowledgebase` 和 `knowledgebase_for_search` 现在支持创建知识库、自动向量插入数据、删除知识库、搜索等操作，操作简单易用。
