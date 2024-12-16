@@ -5,11 +5,7 @@
 Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供多模态的问答服务。
 
 
-## 1.0.1测试版更新日志
-<video width="320" height="240" controls>
-  <source src="./resource/demo.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>
+## 1.0.1测试版更新日志(演示视频：[点击这里观看演示视频](./resource/demo.mp4))
 
 ### 1、新增功能
 - **1.1** 新增图表代码模块，支持大模型生成Python代码以生成图表并加载图片。
