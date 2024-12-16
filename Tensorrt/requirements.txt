@@ -1,0 +1,4 @@
+accelerate
+pycuda
+onnxruntime
+onnx

@@ -76,7 +76,7 @@ async def ask_query(query: Query):
         
     try:
         # 并行执行搜索任务
-        duck_search_result = await asyncduckduckgo_search(query.q, top_k=20)
+        #duck_search_result = await asyncduckduckgo_search(query.q, top_k=20)
         elastic_search_result = await elasticSearch('patent_law',query.q, top_k=20, threshold=0.5)
         milvus_search_result = milvusSearch(query.q, doc_limit=10, slice_limit=100, threshold=0.5, final_return=20)[0]
         # 进行结果合并和处理
@@ -89,8 +89,8 @@ async def ask_query(query: Query):
                     if i['hash'] not in compare_hash_ids:
                         milvus_search_result.append(i)
               
-        if isinstance(duck_search_result, list):   
-            milvus_search_result.extend(duck_search_result)
+        #if isinstance(duck_search_result, list):   
+            #milvus_search_result.extend(duck_search_result)
         if len(milvus_search_result)>0:
             reranked_result = rerank(query.q, milvus_search_result, top_k=3)
             compressed_content = await compress_content(reranked_result)
