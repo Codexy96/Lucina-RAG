@@ -5,6 +5,10 @@ Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）�
 
 https://github.com/user-attachments/assets/74a48c4f-c3c2-410a-a79d-de2b424647f0
 
+
+https://github.com/user-attachments/assets/8b8b9a9e-33a3-45bc-a4e8-f0f2c8d02c2f
+
+
 ## 技术选型如下：
 
 - 向量搜索：
