@@ -1,6 +1,9 @@
 # Lucina-RAG
 
-## 项目概述(演示视频：[点击这里观看演示视频](https://images-for-zhiye.oss-cn-beijing.aliyuncs.com/demo.mp4?Expires=1734322688&OSSAccessKeyId=TMP.3KdEjSMbZFjEU8DuXNRTGB9QfZ7dyqA8X7w6goNwihw8ju9cy791dbD2fkJ8dSDGAumD5n3JM7CBAJ7q5edVYYh5G9mjjE&Signature=fbyVkLbo7ZaZRAMbsXT6QpbALlk%3D))
+## 项目概述(演示视频：[点击这里观看演示视频](<video width="640" height="360" controls>
+    <source src="https://images-for-zhiye.oss-cn-beijing.aliyuncs.com/demo.mp4?Expires=1734322688&OSSAccessKeyId=TMP.3KdEjSMbZFjEU8DuXNRTGB9QfZ7dyqA8X7w6goNwihw8ju9cy791dbD2fkJ8dSDGAumD5n3JM7CBAJ7q5edVYYh5G9mjjE&Signature=fbyVkLbo7ZaZRAMbsXT6QpbALlk%3D" type="video/mp4">
+    您的浏览器不支持 video 标签。
+</video>)
 
 Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供多模态的问答服务。
 
