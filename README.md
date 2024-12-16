@@ -2,11 +2,16 @@
 
 ## 项目概述
 
+<<<<<<< HEAD
 Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供多模态的问答服务。
 
 
 
 ## 2.0测试版更新日志
+=======
+Lucina项目旨在建立一个高效的RAG（Retrieval-Augmented Generation）系统，融合多种检索和生成技术，以便为用户提供更准确、更快速的问答服务。
+## 1.0.1测试版更新日志
+>>>>>>> e0541f92bcbf7dee5e19139171211ee4a4f988c5
 
 
 <video width="320" height="240" controls>
