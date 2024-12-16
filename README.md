@@ -1,4 +1,4 @@
-# Lucina项目 
+# Lucina-RAG
 
 ## 项目概述
 
