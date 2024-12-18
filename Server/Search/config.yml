@@ -1,12 +1,12 @@
 MILVUS:
-    url: "http://124.220.221.33:19530"
+    url: "http://localhost:19530"
 
 ELASTICSEARCH:
-    url: "http://124.220.221.33:9200"
+    url: "http://localhost:9200"
     index: "patent_law"
 
 MYSQL:
-    host: "124.220.221.33"
+    host: "localhost"
     port: 3306
     user: "root"
     password: "fayiyoudao"
