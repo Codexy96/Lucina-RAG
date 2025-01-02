@@ -1,0 +1,92 @@
+#-------------------------------------------------------------
+   
+##########以下为LLM配置信息##########
+
+#-----------------------------------------------------------------
+
+
+zhipuAI:
+    api_key: ""
+
+
+aliAI:
+    api_key: ""
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+
+deepseekAI:
+    api_key: ""
+    base_url: "https://api.deepseek.com/v1"
+
+
+doubaoAI:
+    api_key: ""
+    ep_point: ""
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"
+
+
+baichuanAI:
+    api_key: ""
+    base_url:  "https://api.baichuan-ai.com/v1/"
+
+
+
+
+
+
+
+       
+#-------------------------------------------------------------
+
+##########以下为数据库配置信息##########
+
+#-------------------------------------------------------------
+
+elasticsearch:
+    uri: "http://localhost:9200"
+
+
+
+milvus:
+    uri: "http://localhost:19530"
+
+
+mysql:
+    host: "localhost"
+    user: "root"
+    password: "zhiyeAI"
+    database: "RAG"
+    port: 3306
+
+
+#-----------------------------------------
+
+#########  huggingface 配置信息  ###########
+
+#HF_HOME: '/root/autodl-tmp/.cache'  #模型下载目录
+
+#HF_ENDPOINT: 'https://hf-mirror.com'  #模型下载镜像地址
+
+#------------------------------------------
+HF_SET:
+    HF_HOME: ''
+    HF_ENDPOINT: 'https://hf-mirror.com'
+
+
+#-----------------------------------------
+
+######### 以下为博查AI搜索配置，API KEY 需申请 ###########
+
+#-----------------------------------------
+
+bocha:
+    api_key: ""
+    base_url:  "https://api.boqianai.com/v1/"
+
+
+
+
+
+
+
+
