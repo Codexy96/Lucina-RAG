@@ -1,0 +1,2 @@
+from Ducksearch_api import asyncsearch as Ducksearch
+from Searxngsearch_api import asyncsearch as Searxngsearch
