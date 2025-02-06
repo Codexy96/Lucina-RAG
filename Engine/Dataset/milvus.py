@@ -9,8 +9,7 @@ class Milvus:
         import yaml
         with open(config_path,"r",encoding="utf-8") as f:
             config=yaml.load(f,Loader=yaml.FullLoader)
-        from elasticsearch import Elasticsearch
-        from pymilvus import Milvus,Collection
+        from pymilvus import MilvusClient,Collection
         #连接milvus
         uri=config['milvus']['uri']
         client=Milvus(uri=uri)
