@@ -1,4 +1,6 @@
-![2e227ed0da6136bf2206d3669ae81e61](https://github.com/user-attachments/assets/fc0a1464-92e5-4b0a-8f69-b3147cc7cc93)
+
+https://github.com/user-attachments/assets/1aee6ecf-5a9e-418b-9a3b-feab2751a68c
+
 
 ## 更新内容
 - **图片召回功能**：本次更新引入了图片召回功能，使用阿里的多模态模型结合Milvus构建图片召回和文本实时匹配系统。
