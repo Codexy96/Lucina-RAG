@@ -107,6 +107,7 @@ async def web_search_duckgo(question,querys,top_k_search=5,top_k_rerank=10):
     if len(search_results)<1:
         print("请求超时，duckgo搜索结果为空")
         return []
+    #伪异步
     rerank_results=await rerank(question,search_results,top_k_rerank)
     print(rerank_results,"rerank_results")
     compressed_results=await compress_content_list(data_reserve(rerank_results))
@@ -143,7 +144,7 @@ async def  mix_search(query,querys,kb_name):
                       if  res not in unique_results:
                           unique_results.append(res)
                           
-          #重排序
+          #伪异步,这里无法异步进行
           rerank_results=await rerank(query,unique_results,20)
           compress_results=await compress_content_list(data_reserve(rerank_results))
           return compress_results

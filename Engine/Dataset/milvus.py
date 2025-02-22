@@ -71,7 +71,7 @@ class Milvus:
         """
         res=self.client.drop_collection(collection_name=name)
         return res
-    def search(self,name:str,query_vectors:list,top_k:int):
+    async def search(self,name:str,query_vectors:list,top_k:int):
         """
         参数：
          --name: 集合名称
