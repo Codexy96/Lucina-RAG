@@ -68,8 +68,12 @@ class SearchEngine:
             print("该知识库不存在！")
             return None
         
-        milvus_result = self.milvus.search(name, embedding_list, top_k=top_e)
-        es_result = await self.es.search(name, query, threshold=keyword_threshold, top_k=top_k)
+        #milvus_result = self.milvus.search(name, embedding_list, top_k=top_e)
+        #es_result = await self.es.search(name, query, threshold=keyword_threshold, top_k=top_k)
+        #异步搜索
+        task1=asyncio.create_task(self.milvus.search(name, embedding_list, top_k=top_e))
+        task2=asyncio.create_task(self.es.search(name, query, threshold=keyword_threshold, top_k=top_k))
+        milvus_result,es_result=await asyncio.gather(task1,task2)
         search_ids=[ item['id']  for item in milvus_result[0]]
         milvus_result= await self.es.search_for_ids(name=name,id_list=search_ids)
         #混合搜索结果去重
