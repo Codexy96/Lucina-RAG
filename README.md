@@ -1,3 +1,4 @@
+https://github.com/user-attachments/assets/1aee6ecf-5a9e-418b-9a3b-feab2751a68c
 
 ## 2025.3.1, 测试版0.1.0更新内容：
 - **图片搜索**：本次更新将包含最初测试版本中的图片向量召回功能，正式版将支持更加精细化的图片搜索，敬请期待。
